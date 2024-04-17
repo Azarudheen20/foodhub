@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD PARK</title>
+    <link rel="stylesheet" href="./style.css">
+     <!-- css boostrap link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- bundel in boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- separate in boostrap -->
+<!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>-->
+      <!-- icon link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        #do{color: black;font-weight: bold;}
+        #do:hover{color: goldenrod;}
+      </style>
+</head>
+<body class="bod">
+    
+ <!-- navbar -->
+ <div class="container-fluid">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-sticky">
+    <div class="container-fluid">
+      <a class="navbar-brand blink" href="#"><i class="fa fa-cutlery ms-3 me-3" style="color: goldenrod;" aria-hidden="true"></i>
+
+        F <i class="fa fa-heart-o" aria-hidden="true" style="color: palevioletred;"></i>
+        <i class="fa fa-heart-o" aria-hidden="true" style="color: palevioletred;"></i>
+        D PARK</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PAGES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./index.html">HOME</a></li>
+                <li><a class="dropdown-item" href="./about.html">ABOUT US</a></li>
+                <li><a class="dropdown-item" href="./blog.html">BLOG</a></li>
+                <li><a class="dropdown-item" href="./contact.html">CONTACT</a></li>
+
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">CONTACT</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="banner-text">
+    <img src="./restaurent/gallery/gallery-5.jpg" alt="/" class="img-fluid w-100" style="height: 35rem;">
+    <br><br><br>
+    
+</div>
+<!-- x -->
+
+<!-- advertiesment -->
+<marquee behavior="" scrolldelay="60" direction="left" scrollamount="12">Pongal Discount Offer 25% <span style="color:deeppink;font-weight: bold;" > This Offer minimum Order 1000Rs Only</span> Get 25% Discount Off Now...</marquee>
+<br><br>
+
+<br>
+<!-- carousol -->
+<div id="carouselExampleControls" class="carousel slide col-lg-12 col-md-12 col-12" data-bs-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./restaurent/specials/specials-3.png" class="d-block  img-fluid rounded-pill mx-auto" alt="..." id="siz"><br>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  ADD
+</button>
+
+
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Size</p>
+        <br>
+        <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+  <label class="form-check-label" for="flexRadioDefault1">
+    Normal-:$28.00
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+  <label class="form-check-label" for="flexRadioDefault2">
+    Special-:$38.00
+  </label>
+</div>
+      </div>
+      <div class="modal-body"><i class="fa fa-newspaper-o" aria-hidden="true"></i><span class="ms-3 h4">Review your order and address details to avoid cancellations</span></div>
+      <div class="modal-body"><i class="fa fa-clock-o" aria-hidden="true"></i><span class="ms-3">if you choose to cancel,you can do it within 60 seconds after placing the order</span></div>
+      <div class="modal-body"><i class="fa fa-money" aria-hidden="true"></i><span class="ms-3">post 60 seconds,you will be charged a 100% cancelation fee.</span></div>
+      <div class="modal-body"><i class="fa fa-handshake-o" aria-hidden="true"></i><span class="ms-3">this policy helps us avoid food wastage and compensate restaurents/ dlivery partners for their efforts</span></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Buy now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card" style="width: 25rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title text-center blink"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="ms-3">ADD ADDRESS</span></h5>
+          
+              <form action="./index.html" id="forms" class="error">
+                  <div class="mb-3">
+                    <label for="number" class="form-label error">Mobile no:</label>
+                    <input type="text" class="form-control" id="number" aria-describedby="emailHelp" onkeypress="return event.charCode>=48 && event.charCode<=57" maxlength="10" name="number" >
+                  </div>
+                  <div class="mb-3">
+                    <label for="address" class="form-label">ADDRESS:</label>
+                    <input type="address" class="form-control"  
+                   name="address" >
+                  </div>
+                  <div class="mb-3">
+                    <label for="flatno" class="form-label">HOUSE/FLAT NO:</label>
+                    <input type="address" class="form-control" id="flatno" name="flatno">
+                  </div>
+                  <div class="mb-3">
+                    <label for="area" class="form-label">AREA:</label>
+                    <input type="address" class="form-control" id="area" name="area">
+                  </div>
+                  <div class="mb-3">
+                    <label for="landmark" class="form-label">LANDMARK:</label>
+                    <input type="address" class="form-control" id="landmark" name="landmark">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary rounded-pill" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-outline-primary rounded-pill" >Submit</button>      </div>
+
+                </form>
+
+         </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      <!-- x -->
+      
+      <div class="carousel-item">
+        <img src="./restaurent/menu/tuscan-grilled.jpg" class="d-block  img-fluid rounded-pill mx-auto" alt="..." id="siz"><br>
+        <!-- x -->
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+               <!-- x -->
+      </div>
+      <div class="carousel-item">
+        <img src="./ogani/chikken/fish.jpg" class="d-block  img-fluid rounded-pill mx-auto" alt="..." id="siz"><br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+        
+      </div>
+      <div class="carousel-item">
+        <img src="./ogani/chikken/grill.jpg" class="d-block  img-fluid rounded-pill mx-auto"  alt="..." id="siz"><br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+        
+      </div>
+      <div class="carousel-item">
+        <img src="./ogani/chikken/masala.png" class="d-block  img-fluid rounded-pill mx-auto" id="siz" alt="...">
+        <br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+        
+      </div>
+      <div class="carousel-item">
+        <img src="./restaurent/menu/lobster-roll.jpg" class="d-block  img-fluid rounded-pill mx-auto" alt="..." id="siz">
+        <br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+              </div>
+      <div class="carousel-item">
+        <img src="./restaurent/menu/mozzarella.jpg" class="d-block img-fluid rounded-pill mx-auto" alt="..." id="siz">
+        <br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+              </div>
+      <div class="carousel-item">
+        <img src="./restaurent/menu/spinach-salad.jpg" class="d-block img-fluid rounded-pill mx-auto" alt="..." id="siz">
+        <br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+              </div>
+      <div class="carousel-item">
+        <img src="./restaurent/menu/bread-barrel.jpg" class="d-block  img-fluid rounded-pill mx-auto" alt="..." id="siz">
+        <br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+              </div>
+      <div class="carousel-item">
+        <img src="./ogani/featured/feature-6.jpg" class="d-block  img-fluid rounded-pill mx-auto" alt="..." id="siz">
+        <br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+              </div>
+      <div class="carousel-item">
+        <img src="./restaurent/menu/caesar.jpg" class="d-block  img-fluid rounded-pill mx-auto" alt="..." id="siz">
+        <br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+              </div>
+      <div class="carousel-item">
+        <img src="./restaurent/specials/specials-1.png" class="d-block  img-fluid rounded-pill mx-auto"  alt="..." id="siz">
+        <br>
+        <button type="button" class="btn btn-outline-primary d-block mx-auto rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ADD
+        </button>
+              </div>
+    </div>
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<br><br><br><br>
+<!-- feature -->
+<h3 class="text-dark " style="text-align: center;font-weight: bolder;">FEATURE PRODUCTS</h3>
+<hr style="width: 10%;height: 3px;color: darkgreen;border: 2px solid darkgreen;" class="d-block mx-auto ">
+<br>
+<nav class="navbar navbar-expand navbar-white bg-white">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" id="do" aria-current="page" href="./index.html">ALL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="do" href="./non veg.html">NON VEG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="do" href="./veg.html">VEG</a>
+          </li>
+        </ul>
+      </div>  
+  </nav>
+  <br>
+  
+  <br><br>
+  <br>
+<!-- grid -->
+<div class="container ">
+<div class="row  justify-content-center ">
+  <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+    <a href="#"><img class="img-fluid d-block rounded-pill" src="./restaurent/specials/specials-3.png" alt=""></a> <br><br>
+    <h4 class="text-center mt-3" style="font-weight: bold;">CHIKKEN RAMEN</h4>
+    <H6 class="text-center">$28.00 </H6>
+    <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i> </a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true" ></i></a></p></div>
+    <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+       <a href="#"><img class="img-fluid rounded-pill" src="./restaurent/menu/tuscan-grilled.jpg" alt=""></a><br><br>
+       <h4 class="text-center mt-3" style="font-weight: bold;">FRIED CHIKKEN</h4>
+      <H6 class="text-center">$40.00 </H6>
+      <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i> </a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+    <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+      <a href="#"><img class="img-fluid rounded-pill" src="./ogani/chikken/fish.jpg" alt=""></a><br><br>
+      <h4 class="text-center  mt-3" style="font-weight: bold;">FISH FRY</h4>
+    <H6 class="text-center">$38.00 </H6>
+  <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i></a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+    <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+      <a href="#"><img  class="img-fluid d-block rounded-pill" src="./ogani/chikken/grill.jpg" alt=""><br><br></a>
+      <h4 class="text-center mt-3" style="font-weight: bold;">GRILL CHIKKEN</h4>
+        <H6 class="text-center">$50.00 </H6>
+        <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i> </a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+    <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+      <a href="#"><img class="img-fluid d-block rounded-pill" src="./ogani/chikken/masala.png" style="width: 90%;height: 50%;" alt=""><br><br></a>
+      <h4 class="text-center mt-3" style="font-weight: bold;">MASALA GRAVY</h4>
+        <H6 class="text-center">$35.00 </H6>
+        <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i> </a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+    <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+      <a href="#"><img class="img-fluid rounded-pill" src="./restaurent/menu/lobster-roll.jpg" alt=""></a><br><br>
+      <h4 class="text-center mt-3" style="font-weight: bold;">LOBSTER ROLL</h4>
+        <H6 class="text-center">$23.00 </H6>
+        <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i> </a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+    <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+      <a href="#"><img class="img-fluid rounded-pill" src="./restaurent/menu/mozzarella.jpg" alt=""></a><br><br>
+      <h4 class="text-center mt-3" style="font-weight: bold;">PARIS VALEES</h4>
+        <H6 class="text-center">$30.00 </H6>
+        <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i> </a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+        <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+          <a href="#"><img class="img-fluid rounded-pill" src="./restaurent/menu/spinach-salad.jpg" alt=""></a><br><br>
+          <h4 class="text-center mt-3" style="font-weight: bold;">VEG PLATE</h4>
+            <H6 class="text-center">$25.00 </H6>
+            <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i></a><a href=""> <i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+    
+    
+        <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+          <a href="#"><img class="img-fluid rounded-pill" src="./restaurent/menu/bread-barrel.jpg" alt=""></a><br><br>
+          <h4 class="text-center mt-3" style="font-weight: bold;">SOURDOUGH BREAD</h4>
+            <H6 class="text-center">$20.00 </H6>
+            <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i> </a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+        <div class="col-lg-3 col-md-3 col-10  p-5" id="qwer">
+          <a href="#"><img class="img-fluid   rounded-pill" src="./ogani/featured/feature-6.jpg" alt=""></a><br><br>
+          <h4 class="text-center mt-3" style="font-weight: bold;">BURGAR</h4>
+            <H6 class="text-center">$20.00 </H6>
+            <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i> </a><a href=""><i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+           
+    <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+      <a href="#"><img class="img-fluid rounded-pill" src="./restaurent/menu/caesar.jpg" alt=""></a><br><br>
+      <h4 class="text-center mt-3" style="font-weight: bold;">SOYA CHUNK SALAD</h4>
+        <H6 class="text-center">$10.00 </H6>
+        <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i></a><a href=""> <i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+    <div class="col-lg-3 col-md-3 col-10 p-5" id="qwer">
+      <a href="#"><img class="img-fluid rounded-pill" src="./restaurent/specials/specials-1.png" alt=""></a><br><br>
+      <h4 class="text-center mt-3" style="font-weight: bold;">KARBI STICKY RICE</h4>
+        <H6 class="text-center">$12.00 </H6>
+        <p><a href=""><i class="fa fa-heart" aria-hidden="true"></i></a><a href=""> <i class="fa fa-shopping-cart ms-3" aria-hidden="true"></i></a></p></div>
+</div>
+<br><br><br>    
+<!-- footer -->
+<div class="container border p-3">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-12">
+      <div class="h3 text-dark">FOOD PARK</div>
+      <div class="text-dark">Address: 60-49 Road 11378 New York <br>Phone: +65 11.188.888 <br> Email: hello@foodparkcam.com</div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-12" id="footer_widge">
+      <div class="h6 text-dark" style="margin-left: 30px;"><span style="font-weight: bold;">Usefull Links</span></div>
+      <ul class="left">
+        <li><a href="">About us <span style="float: right;text-align: justify;">Food Order</span></a></li>
+        <li><a href="">About Our Shop<span style="float: right;text-align: justify;">Our Service</span></a> </li>
+        <li> <a href="">Secure Shopping<span style="float: right;text-align: justify;">Project</span></a> </li>
+        <li> <a href="">Delivery Information<span style="float: right;text-align: justify;">Contact</span></a></li>
+        <li> <a href="">Privacy Policy<span style="float: right;text-align: justify;">Innovation</span></a></li>
+        <li> <a href="">Our Sitemap<span style="float: right;text-align: justify;">Testimonials</span></a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-3 col-12">
+      <div class="h5 text-dark">Join Our News letter Now</div>
+      <p style="font-size: .7rem;text-align: justify;">Get E-mail updates about our latest shop and special offers.</p>
+
+      <div class="input-group mb-3">
+        <input type="email" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2" id="button-addon2" required>
+        <button class="btn btn-outline-success" type="button" id="button-addon2" value="submit">Subscribe</button>
+      </div>
+
+
+
+
+      <div class="d-flex" style="column-gap:50px ;"><a class="ic" href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true" ></i> </a><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true" ></i></a> <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" aria-hidden="true" id="ic ic-3"></i></a> <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true" id="ic ic-4"></i></a></div>
+  </div>
+ 
+  <div class="container">
+    <div class="row">
+      <hr>
+      <p>Copyright ©2024 All rights reserved | hello@foodparkcam.com</p>
+    </div>
+    <hr>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<a href="#top" style="float: right; color: black;font-size: 40px;"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+<!-- jquery cdn link -->
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!-- jquery validation cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="/jquery.js"></script>
+<script src="/scroll.js"></script>
+
+</body>
+</html>
